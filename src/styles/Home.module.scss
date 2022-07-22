@@ -1,0 +1,19 @@
+@use "./vars";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 1em 0;
+}
+
+
+.bold {
+  background-color: vars.$color;
+  color: vars.$background-color;
+  padding: 0.75em;
+  font-weight: 900;
+  width: fit-content;
+}
